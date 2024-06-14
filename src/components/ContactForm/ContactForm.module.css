@@ -1,0 +1,39 @@
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap: 8px;
+  }
+  
+  label {
+    max-width: 100%;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 8px;
+    width: 408px;
+  }
+
+.button {
+  background-color: rgb(145, 166, 228);
+  color: rgb(37, 37, 37); 
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid #9f8a8a;
+}
+
+.button:hover {
+  background-color: #cccccc; 
+}
+
+.button:active {
+  background-color: darkgrey; 
+}
+  

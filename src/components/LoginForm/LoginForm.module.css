@@ -1,0 +1,21 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 18px;
+    align-items: center;
+}
+
+label {
+    font-size: 18px;
+    padding: 5px;
+}
+
+button {
+    width: 150px;
+}
+
+input {
+    width: 250px;
+    border-radius: 8px;
+}

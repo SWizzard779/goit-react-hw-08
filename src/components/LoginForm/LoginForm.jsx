@@ -18,7 +18,7 @@ const LoginForm = () => {
     >
       <Form className={styles.form}>
         <label>
-          Email
+          Email 
           <Field name="email" type="email" />
         </label>
         <label>

@@ -2,10 +2,11 @@ import React from 'react';
 import ContactList from '../../components/ContactList/ContactList';
 import ContactForm from '../../components/ContactForm/ContactForm';
 import SearchBox from '../../components/SearchBox/SearchBox';
+import styles from './ContactsPage.module.css'
 
 const ContactsPage = () => {
   return (
-    <div>
+    <div className={styles.contacts}>
       <h1>Your Contacts</h1>
       <ContactForm />
       <SearchBox />

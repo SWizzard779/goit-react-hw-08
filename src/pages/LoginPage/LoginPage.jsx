@@ -1,9 +1,10 @@
 import React from 'react';
 import LoginForm from '../../components/LoginForm/LoginForm';
+import styles from './LoginPage.module.css'
 
 const LoginPage = () => {
   return (
-    <div>
+    <div className={styles.login}>
       <h1>Login</h1>
       <LoginForm />
     </div>

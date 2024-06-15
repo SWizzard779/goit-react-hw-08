@@ -1,4 +1,6 @@
 .login {
     position: relative;
     top: 300px;
+    display: flex;
+    flex-direction: column;
 }
